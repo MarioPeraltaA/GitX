@@ -47,13 +47,13 @@ Por el sistema de ramificaciones descrito, la forma en que fluye el código y se
 
 Todos los desarrolladores aportan al repositorio directamente.
 
-![](Git0_colaborativo.svg)
+<center><img src="imgs/Git0_colaborativo.svg" width="300px"/></center>
 
 ##### Modelo del "dictador"
 
 Una sola persona (o grupo pequeño) autoriza los cambios que ingresan al repositorio "bendecido".
 
-![](Git0_dictador.svg)
+<center><img src="imgs/Git0_dictador.svg" width="300px"/></center>
 
 ### d) Seguridad de los datos
 
@@ -113,7 +113,7 @@ Es el lugar donde se encuentran los archivos con los cambios realizados y consol
 
 ### Migración entre un lugar y otro
 
-![](Git0_ubicaciones.svg)
+<center><img src="imgs/Git0_ubicaciones.svg" width="150px"/></center>
 
 ## Estado de los archivos
 
@@ -126,7 +126,7 @@ Hay cuatro estados posibles para el archivo en Git:
 
 Ciertas acciones de Git trasladan al archivo entre un estado y otro:
 
-![](Git0_estado.svg)
+<center><img src="imgs/Git0_estados.svg" width="450px"/></center>
 
 ##  Primero lo primero
 
@@ -207,8 +207,7 @@ Los siguientes son comandos esenciales que se aplican sobre el directorio actual
 15. Si ahora nuevamente guardamos los cambios en el repositorio con `$ git commit -m "Nuevo mensaje por el segundo commit."`, veremos algo como *"1 file changed, 2 insertions(+), 2 deletions(-)"*
 16. Es posible "tomar un atajo" desde el directorio al repositorio con `git commit -a`.
 
-![](Git0_repositorio_local.svg)
-
+<center><img src="imgs/Git0_repositorio_local.svg" width="400px"/></center>
 #### Resumen de comandos nuevos utilizados
 
 | Comando | Descripción |
@@ -222,7 +221,7 @@ Los siguientes son comandos esenciales que se aplican sobre el directorio actual
 
 Parte de la utilidad de Git es poder interactuar en la edición de software con personas en distintos lugares. Para eso está la web. Ahora el flujo de trabajo puede ser como el siguiente:
 
-![](Git0_repositorio_remoto.svg)
+<center><img src="imgs/Git0_repositorio_remoto.svg" width="400px"/></center>
 
 Hay varios motivos por los que nos puede interesar copiar ("**clonar**") los archivos de un repositorio remoto (*"repo"*, en el lingo):
 
@@ -283,7 +282,7 @@ Ahora es posible ejecutar Jupyter con los archivos ahí presentes para asuntos r
 
 Sea R: *remoto* y L: *local*:
 
-![](Git0_repositorio_remoto.svg)
+<center><img src="imgs/Git0_repositorio_remoto.svg" width="400px"/></center>
 
 ### Chiste
 
@@ -313,7 +312,7 @@ Hacer modificaciones en una ramificación es una de las ventajas citadas de Git:
 
 Si R: *remoto* y L: *local*, el siguiente diagrama nos ayuda a visualizar la secuencia de cambios realizados.
 
-![](Git0_remoto.svg)
+<center><img src="imgs/Git0_remoto.svg" width="300px"></center>
 
 ## Para explorar más
 
